@@ -9,7 +9,10 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
-export default function Sidebar(){
+
+
+export default function Sidebar(props){
+
     return(
         <div className="sidebar">
             <div className="top">
@@ -38,8 +41,8 @@ export default function Sidebar(){
             <div className="bottom">
                 <div className="theme">THEME</div>
                 <div className="theme-container">
-                    <div className="light"></div>
-                    <div className="dark"></div>
+                    <div className="light" onClick={props.toggleLight}></div>
+                    <div className="dark" onClick={props.toggleDark}></div>
                 </div>
             </div>
 

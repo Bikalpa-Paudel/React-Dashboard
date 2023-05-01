@@ -27,7 +27,7 @@ hr{
     cursor: pointer;
 }
 .center ul li:hover{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(187, 187, 187);
 }
 .center ul li span{
     margin-left: 15px;
@@ -52,6 +52,7 @@ hr{
     height: 50px;
     width: 50px;
     background-color: black;
+    border: 2px solid white;
     padding: 2px;
     border-radius: 50%;
     margin: 13px;
@@ -60,6 +61,7 @@ hr{
 .bottom .light{
     height: 50px;
     width: 50px;
+    background-color: white;
     border: 2px solid black;
     border-radius: 50%;
     margin: 13px;
