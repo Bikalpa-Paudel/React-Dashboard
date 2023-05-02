@@ -1,5 +1,6 @@
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
+import Widget from "../../components/widget/Widget";
 import "./home.css";
 import { useState } from "react";
 
@@ -24,6 +25,7 @@ export default function Home(){
             <div className="main-container">
                 <Navbar />
                 <hr />
+                <Widget />
             </div>
         </div>
     )

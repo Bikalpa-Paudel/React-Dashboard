@@ -1,0 +1,14 @@
+.widget-container{
+    min-height: 200px;
+    padding: 25px;
+    
+}
+.widget-card{
+    display: inline-block;
+    background-color: #ffffff;
+    height: 150px;
+    width: 270px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: #a2a2a2 .1px .1px 10px .1px;
+}
