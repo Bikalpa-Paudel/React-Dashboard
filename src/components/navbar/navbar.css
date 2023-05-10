@@ -24,10 +24,15 @@
 .search-bar{
     border: none;
     outline: none;
+    background-color: transparent; 
+    color: white;  
+}
+.search-bar::placeholder{
+    color: green;
 }
 .search-icon{
     color: rgb(189, 189, 189);
 }
 .nav-icon{
-    margin: 0 20px;
+    margin-left: 8px;
 }

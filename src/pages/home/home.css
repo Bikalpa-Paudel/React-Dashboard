@@ -2,5 +2,10 @@
     display:flex;
 }
 .main-container{
-    flex:6
+    flex:6;
+}
+.widgets{
+    padding: 2rem;
+    display: flex;
+    gap:20px;
 }

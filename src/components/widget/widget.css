@@ -1,14 +1,39 @@
-.widget-container{
-    min-height: 200px;
-    padding: 25px;
-    
-}
-.widget-card{
-    display: inline-block;
-    background-color: #ffffff;
+.widget{
+    display: flex;
+    flex:1;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 9px 6px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 1px 9px 6px rgba(0,0,0,0.19);
+    -moz-box-shadow: 1px 1px 9px 6px rgba(0,0,0,0.19);
     height: 150px;
-    width: 270px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: #a2a2a2 .1px .1px 10px .1px;
+    border-radius: 10px;
+}
+.right,.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.wid-title{
+    font-size: 1.5rem;
+    color: grey;
+}
+.wid-number{
+    font-size: 1.5rem;
+}
+.view{
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wid-per{
+    font-size: 1.2rem;
+    color: rgb(34, 197, 34);
+}
+.wid-icon{
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: purple;
+    align-self: flex-end;
 }

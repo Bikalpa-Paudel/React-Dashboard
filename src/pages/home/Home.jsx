@@ -25,7 +25,12 @@ export default function Home(){
             <div className="main-container">
                 <Navbar />
                 <hr />
+            <div className="widgets">
                 <Widget />
+                <Widget />
+                <Widget />
+                <Widget />
+            </div>
             </div>
         </div>
     )
