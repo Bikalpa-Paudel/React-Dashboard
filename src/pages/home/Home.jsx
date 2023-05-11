@@ -4,6 +4,8 @@ import Widget from "../../components/widget/Widget";
 import "./home.css";
 import { useState } from "react";
 import data from './widgetData.js'
+import Chart from "../../components/chart/Chart";
+import Graph from "../../components/graph/Graph";
 
 export default function Home(){
     //widget data fetching
@@ -36,6 +38,10 @@ export default function Home(){
                 <hr />
             <div className="widgets">
                 {widget}
+            </div>
+            <div className="charts">
+                <Chart />
+                <Graph />
             </div>
             </div>
         </div>

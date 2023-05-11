@@ -1,5 +1,4 @@
 import './widget.css'
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 export default function Widget(props){
 
