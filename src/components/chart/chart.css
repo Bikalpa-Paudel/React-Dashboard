@@ -5,3 +5,33 @@
     flex: 1;
     padding: 10px;
 }
+.chart-top{
+    display: flex;
+    justify-content: space-between;
+}
+.chart-title{
+    color: grey;
+}
+.kebab{
+    cursor: pointer;
+}
+.chart-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.pro-bar{
+    height: 150px;
+    width: 150px;
+}
+
+.amount{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.dec{
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
