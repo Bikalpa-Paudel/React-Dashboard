@@ -2,6 +2,8 @@ import "./chart.css";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export default function Chart() {
   const percentage = 77;
@@ -48,6 +50,26 @@ export default function Chart() {
         <p className="amount">$420</p>
         <p className="dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id.</p>
       </div>
+      <div className="sales">
+            <div className="sale">
+                <div className="title">Target</div>
+                <div className="rate">         
+                    <KeyboardArrowUpIcon className="up-icon green"/>$200
+                </div>
+            </div>
+            <div className="sale">
+                <div className="title">Monthly</div>
+                <div className="rate">         
+                    <KeyboardArrowDownIcon className="up-icon red"/>$9K
+                </div>
+            </div>
+            <div className="sale">
+                <div className="title">Weekly</div>
+                <div className="rate">         
+                    <KeyboardArrowUpIcon className="up-icon green"/>$3K
+                </div>
+            </div>
+        </div>
     </div>
   );
 }

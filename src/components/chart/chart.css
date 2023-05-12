@@ -35,3 +35,20 @@
     text-align: center;
     color: rgb(151, 151, 151);
 }
+
+.sales{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.rate{
+    display: flex;
+    align-items: center;
+}
+.green{
+    color: rgb(34, 197, 34);
+}
+.red{
+    color: red;
+}
