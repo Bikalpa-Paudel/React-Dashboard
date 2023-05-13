@@ -1,0 +1,14 @@
+.table{
+    width:100%;
+    padding: 10px 0 0px 0;
+    box-shadow: 1px 1px 9px 6px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 1px 9px 6px rgba(0,0,0,0.19);
+    -moz-box-shadow: 1px 1px 9px 6px rgba(0,0,0,0.19);
+}
+.history{
+    color: grey;
+    text-align: center;
+}
+.bold{
+    font-weight: 700;
+}

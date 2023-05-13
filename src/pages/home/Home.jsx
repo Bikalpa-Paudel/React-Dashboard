@@ -6,6 +6,7 @@ import { useState } from "react";
 import data from './widgetData.js'
 import Chart from "../../components/chart/Chart";
 import Graph from "../../components/graph/Graph";
+import Transaction from "../../components/transaction/Transaction";
 
 export default function Home(){
     //widget data fetching
@@ -42,6 +43,9 @@ export default function Home(){
             <div className="charts">
                 <Chart />
                 <Graph />
+            </div>
+            <div className="transaction">
+                <Transaction />
             </div>
             </div>
         </div>

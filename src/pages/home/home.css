@@ -9,3 +9,7 @@
     display: flex;
     gap:20px;
 }
+
+.transaction{
+    padding: 2rem;
+}
